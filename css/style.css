@@ -9,6 +9,46 @@ body{
 
 }
 
+header{
+  background-color: aquamarine;
+  padding: 40px;
+}
+
+.cointainer{
+  max-width: 1200px;
+  margin:0 auto;
+  text-align: center;
+}
+
+.block-1{
+  background-color: orange;
+  padding: 20px;
+  border: 1px dashed;
+}
+
+
+.logo{
+  display: inline-block;
+  margin-left: 55px;
+}
+
+
+nav{
+  display: inline-block;
+  margin-left: 310px;
+  margin-right: 310px;
+}
+
+nav a{
+  text-decoration: black;
+  margin:0 10px;
+}
+
+.login{
+  display: inline-block;
+}
+
+
 .blu{
   background-color: rgb(9, 9, 126);
   display: flex;
@@ -23,13 +63,10 @@ body{
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: dashed;
-  border-top: dashed;
-  border-left: dashed;
-  border-right: dashed;
+  border: 1px dashed;
 }
 
-.bianco{
+.back-bianco{
   background-color: white;
   display: flex;
   justify-content: center;
@@ -50,10 +87,7 @@ body{
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 315px;
-  border-bottom: dashed;
-  border-top: dashed;
-  border-left: dashed;
-  border-right: dashed;
+  border: 1px dashed;
 }
 
 .container-orange{
@@ -64,10 +98,7 @@ body{
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 300px;
-  border-bottom: dashed;
-  border-top: dashed;
-  border-left: dashed;
-  border-right: dashed;
+  border: 1px dashed;
 }
 
 
@@ -86,10 +117,7 @@ body{
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 315px;
-  border-bottom: dashed;
-  border-top: dashed;
-  border-left: dashed;
-  border-right: dashed;
+  border: 1px dashed;
 }
 
 .container-pink{
@@ -100,10 +128,7 @@ body{
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 300px;
-  border-bottom: dashed;
-  border-top: dashed;
-  border-left: dashed;
-  border-right: dashed;
+  border: 1px dashed;
 }
 
 .grigio{
@@ -127,10 +152,7 @@ body{
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 315px;
-  border-bottom: dashed;
-  border-top: dashed;
-  border-left: dashed;
-  border-right: dashed;
+  border: 1px dashed;
 }
 
 .container-rosso{
@@ -141,10 +163,7 @@ body{
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 300px;
-  border-bottom: dashed;
-  border-top: dashed;
-  border-left: dashed;
-  border-right: dashed;
+  border: 1px dashed;
 }
 
 
@@ -158,25 +177,6 @@ body{
 
 
 
-header{
-  background-color: aquamarine;
-  padding: 10px;
-}
-
-.blocco{
-  display: inline-block;
-  width: 30%;
-  height: 50px;
-  background-color: orange;
-  color: black;
-  margin-right: 10px;
-  text-align: center;
-  border-bottom: dashed;
-  border-top: dashed;
-  border-left: dashed;
-  border-right: dashed;
-}
-
 .container-verde{
   background-color: forestgreen;
   padding: 125px 180px;
@@ -184,10 +184,7 @@ header{
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: dashed;
-  border-top: dashed;
-  border-left: dashed;
-  border-right: dashed;
+  border: 1px dashed;
 }
 
 .container-marrone{
@@ -197,10 +194,7 @@ header{
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: dashed;
-  border-top: dashed;
-  border-left: dashed;
-  border-right: dashed;
+  border: 1px dashed;
 }
 
 .sezione-footer{
@@ -225,10 +219,7 @@ header{
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 500px;
-  border-bottom: dashed;
-  border-top: dashed;
-  border-left: dashed;
-  border-right: dashed;
+  border: 1px dashed;
 }
 
 .box2{
@@ -238,10 +229,7 @@ header{
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: dashed;
-  border-top: dashed;
-  border-left: dashed;
-  border-right: dashed;
+  border: 1px dashed;
 }
 
 .box3{
@@ -251,10 +239,7 @@ header{
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: dashed;
-  border-top: dashed;
-  border-left: dashed;
-  border-right: dashed;
+  border: 1px dashed;
 }
 
 .box4{
@@ -264,10 +249,7 @@ header{
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: dashed;
-  border-top: dashed;
-  border-left: dashed;
-  border-right: dashed;
+  border: 1px dashed;
 }
 
 .box5{
@@ -278,10 +260,7 @@ header{
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 500px;
-  border-bottom: dashed;
-  border-top: dashed;
-  border-left: dashed;
-  border-right: dashed;
+  border: 1px dashed;
 }
 
 
@@ -317,3 +296,4 @@ footer{
   border: 2px dashed black;
 }
 /* fine footer */
+
