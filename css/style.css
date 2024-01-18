@@ -177,11 +177,6 @@ header{
   border-right: dashed;
 }
 
-
-
-
-
-
 .container-verde{
   background-color: forestgreen;
   padding: 125px 180px;
@@ -208,6 +203,98 @@ header{
   border-right: dashed;
 }
 
+.sezione-footer{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+  
+
+.box1{
+  background-color:yellow;
+  padding: 124px 70px;
+  border-radius: 0%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 500px;
+  border-bottom: dashed;
+  border-top: dashed;
+  border-left: dashed;
+  border-right: dashed;
+}
+
+.box2{
+  background-color:#20b2aa;
+  padding: 124px 60px;
+  border-radius: 0%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: dashed;
+  border-top: dashed;
+  border-left: dashed;
+  border-right: dashed;
+}
+
+.box3{
+  background-color:#20b2aa;
+  padding: 124px 60px;
+  border-radius: 0%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: dashed;
+  border-top: dashed;
+  border-left: dashed;
+  border-right: dashed;
+}
+
+.box4{
+  background-color:#20b2aa;
+  padding: 124px 60px;
+  border-radius: 0%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: dashed;
+  border-top: dashed;
+  border-left: dashed;
+  border-right: dashed;
+}
+
+.box5{
+  background-color:#20b2aa;
+  padding: 124px 60px;
+  border-radius: 0%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 500px;
+  border-bottom: dashed;
+  border-top: dashed;
+  border-left: dashed;
+  border-right: dashed;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* inizio footer ultimo blocco */
 footer{
   background-color: black;
   padding: 10px;
@@ -229,3 +316,4 @@ footer{
   padding: 10px;
   border: 2px dashed black;
 }
+/* fine footer */
