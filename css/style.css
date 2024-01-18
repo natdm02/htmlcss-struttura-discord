@@ -208,8 +208,24 @@ header{
   border-right: dashed;
 }
 
+footer{
+  background-color: black;
+  padding: 10px;
+}
 
+.container2{
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: green;
+}
 
+.inner-footer{
+  display: flex;
+  justify-content: space-between;
+}
 
-
-  
+.logo-2, .bottone{
+  background-color: orange;
+  padding: 10px;
+  border: 2px dashed black;
+}
