@@ -10,6 +10,19 @@ body{
 
 header{
   background-color: aquamarine;
-  height: 80px;
-  display: flex;
+  padding: 10px;
 }
+
+.blocco{
+  display: inline-block;
+  width: 30%;
+  height: 50px;
+  background-color: orange;
+  color: black;
+  margin-right: 10px;
+}
+
+
+
+
+  
