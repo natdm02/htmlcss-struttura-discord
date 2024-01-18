@@ -10,10 +10,23 @@ body{
 }
 
 .blu{
-  background-color: blue;
+  background-color: rgb(9, 9, 126);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.container-rosa{
+  background-color: rgb(231, 55, 181);
+  padding: 80px 254px;
+  border-radius: 0 px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: dashed;
+  border-top: dashed;
+  border-left: dashed;
+  border-right: dashed;
 }
 
 .bianco{
@@ -23,12 +36,117 @@ body{
   align-items: center;
 }
 
+.conta{
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container-purple{
+  background-color:purple;
+  padding: 125px 180px;
+  border-radius: 0 px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 315px;
+  border-bottom: dashed;
+  border-top: dashed;
+  border-left: dashed;
+  border-right: dashed;
+}
+
+.container-orange{
+  background-color:orange;
+  padding: 125px 140px;
+  border-radius: 0%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 300px;
+  border-bottom: dashed;
+  border-top: dashed;
+  border-left: dashed;
+  border-right: dashed;
+}
+
+
+
+.con{
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container-blu{
+  background-color: rgb(83, 83, 234);
+  padding: 125px 180px;
+  border-radius: 0 px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 315px;
+  border-bottom: dashed;
+  border-top: dashed;
+  border-left: dashed;
+  border-right: dashed;
+}
+
+.container-pink{
+  background-color:pink;
+  padding: 125px 140px;
+  border-radius: 0%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 300px;
+  border-bottom: dashed;
+  border-top: dashed;
+  border-left: dashed;
+  border-right: dashed;
+}
+
 .grigio{
   background-color: grey;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.cont{
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container-giallo{
+  background-color:yellow;
+  padding: 125px 140px;
+  border-radius: 0%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 315px;
+  border-bottom: dashed;
+  border-top: dashed;
+  border-left: dashed;
+  border-right: dashed;
+}
+
+.container-rosso{
+  background-color: red;
+  padding: 125px 180px;
+  border-radius: 0 px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 300px;
+  border-bottom: dashed;
+  border-top: dashed;
+  border-left: dashed;
+  border-right: dashed;
+}
+
 
 .grigio-due{
   background-color: grey;
@@ -59,36 +177,14 @@ header{
   border-right: dashed;
 }
 
-.container-rosa{
-  background-color: rgb(231, 55, 181);
-  padding: 80px 254px;
-  border-radius: 0 px;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-bottom: dashed;
-  border-top: dashed;
-  border-left: dashed;
-  border-right: dashed;
-}
 
-.container-pink{
-  background-color: forestgreen;
-  padding: 80px 254px;
-  border-radius: 0%;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-bottom: dashed;
-  border-top: dashed;
-  border-left: dashed;
-  border-right: dashed;
-}
+
+
 
 
 .container-verde{
   background-color: forestgreen;
-  padding: 80px 254px;
+  padding: 125px 180px;
   border-radius: 0%;
   text-align: center;
   margin-top: 20px;
@@ -100,8 +196,8 @@ header{
 }
 
 .container-marrone{
-  background-color: brown;
-  padding: 150px 254px;
+  background-color: maroon;
+  padding: 200px 325px;
   border-radius: 0 px;
   text-align: center;
   margin-top: 20px;
