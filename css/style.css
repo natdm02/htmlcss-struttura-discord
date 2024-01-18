@@ -53,44 +53,63 @@ header{
   color: black;
   margin-right: 10px;
   text-align: center;
+  border-bottom: dashed;
+  border-top: dashed;
+  border-left: dashed;
+  border-right: dashed;
 }
 
 .container-rosa{
-  background-color: pink;
+  background-color: rgb(231, 55, 181);
   padding: 80px 254px;
-  border-radius: 10px;
+  border-radius: 0 px;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  border-bottom: dashed;
+  border-top: dashed;
+  border-left: dashed;
+  border-right: dashed;
 }
-
 
 .container-pink{
-  background-color: pink;
+  background-color: forestgreen;
   padding: 80px 254px;
-  border-radius: 10px;
+  border-radius: 0%;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  border-bottom: dashed;
+  border-top: dashed;
+  border-left: dashed;
+  border-right: dashed;
 }
 
+
 .container-verde{
-  background-color: pink;
+  background-color: forestgreen;
   padding: 80px 254px;
-  border-radius: 10px;
+  border-radius: 0%;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  border-bottom: dashed;
+  border-top: dashed;
+  border-left: dashed;
+  border-right: dashed;
 }
 
 .container-marrone{
   background-color: brown;
-  padding: 80px 254px;
-  border-radius: 10px;
+  padding: 150px 254px;
+  border-radius: 0 px;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-
+  border-bottom: dashed;
+  border-top: dashed;
+  border-left: dashed;
+  border-right: dashed;
 }
 
 
